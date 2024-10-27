@@ -32,6 +32,10 @@ ROJO CLARO #b59492
     src: url(css/fonts/analogia-italic.otf) format('truetype');
 }
 
+header {
+    background-color: none;
+}
+
 h1 {
     font-family: "Helvetica";
 }
@@ -39,4 +43,6 @@ h1 {
 span.nolimits {
     font-family: "Analogia";
     color: #a0463e;
+    font-size: 3rem;
 }
+
