@@ -79,4 +79,24 @@ span.nolimits {
     background-color: #a0463e;
     color: #e9e8e4;
 }
+
+span.difference {
+    font-family: "Analogia";
+}
+
+.section-3 {
+    background-color: #313c1d;
+    color: #e9e8e4;
+}
+.section-3 h2, h3 {
+    font-family: "Helvetica";
+}
+.section-3 p {
+    font-family: "Analogia";
+    font-size: 2rem;
+}
+span.realstuff {
+    font-weight: bold;
+    font-style: italic
+}
 /* ncisaobc */
