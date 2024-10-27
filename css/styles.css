@@ -1,0 +1,42 @@
+/* 
+COLORES
+GRIS  #e9e8e4
+VERDE OSCURO #313c1d
+ROJO OSCURO #a0463e
+VERDE CLARO #898e7d
+ROJO CLARO #b59492
+*/
+
+@font-face {
+    font-family:"Helvetica Bold" ;
+    src: url(css/fonts/HelveticaNeueBold.otf) format('truetype');
+}
+
+@font-face {
+    font-family:"Helvetica" ;
+    src: url(css/fonts/HelveticaNeue.ttc) format('truetype');
+}
+
+@font-face {
+    font-family:"Helvetica Medium" ;
+    src: url(css/fonts/HelveticaNeueMedium.otf) format('truetype');
+}
+
+@font-face {
+    font-family:"Helvetica Italic" ;
+    src: url(css/fonts/HelveticaNeueItalic.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family:"Analogia" ;
+    src: url(css/fonts/analogia-italic.otf) format('truetype');
+}
+
+h1 {
+    font-family: "Helvetica";
+}
+
+span.nolimits {
+    font-family: "Analogia";
+    color: #a0463e;
+}
