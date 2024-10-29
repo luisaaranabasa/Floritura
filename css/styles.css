@@ -36,26 +36,32 @@ header,body {
     background-color: #e9e8e4;
 }
 
-header {
-    position: sticky;
-}
+
 
 h1 {
     font-family: "Helvetica";
 }
 
-span.nolimits {
-    font-family: "Analogia";
-    color: #a0463e;
-    font-size: 3rem;
-}
+/* MENU */
 
 .container-fluid {
     justify-content: space-between;
+    width: 100vh;
 }
+
+.menu_secciones {
+    display: flex;
+    flex-direction: row;
+}
+
+
 .menu_seccion_proyectos {
     font-family: "Analogia";
     font-size: 1.2rem;
+}
+
+.navbar {
+    position: fixed
 }
 
 .navbar-nav {
@@ -66,9 +72,19 @@ span.nolimits {
     color: #e9e8e4;
 }
 
+/* SECCION INTRODUCCION */
+
 .seccion_intro {
     background-color: #e9e8e4;
 }
+
+span.nolimits {
+    font-family: "Analogia";
+    color: #a0463e;
+    font-size: 3rem;
+}
+
+/* ABOUT US */
 
 .section-1 {
     background-color: black;
@@ -95,8 +111,16 @@ span.difference {
     font-family: "Analogia";
     font-size: 2rem;
 }
+
+/* PROYECTOS */
+
 span.realstuff {
     font-weight: bold;
     font-style: italic
 }
-/* ncisaobc */
+
+
+/* CONTACTO */
+
+
+/* FOOTER */
