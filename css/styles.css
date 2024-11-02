@@ -44,6 +44,8 @@ h1 {
 
 /* MENU */
 
+
+
 .container-fluid {
     justify-content: space-between;
     width: 100vh;
@@ -72,6 +74,28 @@ h1 {
     color: #e9e8e4;
 }
 
+.navMenu{
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.lista{
+    transition: all 1s ease-in;
+}
+
+.lista:hover{
+    border-bottom: 1px solid #e9e8e4; 
+}
+
+.enlace:hover{
+    color: #e9e8e4;
+}
 /* SECCION INTRODUCCION */
 
 .seccion_intro {
