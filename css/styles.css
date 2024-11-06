@@ -42,9 +42,11 @@ h1 {
     font-family: "Helvetica";
 }
 
+
+
+
+
 /* MENU */
-
-
 
 .container-fluid {
     justify-content: space-between;
@@ -79,14 +81,18 @@ h1 {
 }
 
 .menu{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;   
+    background: rgba(255, 255, 255, .3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px rgba(209, 213, 219, 0.3);
+    border-radius: 40px;
 }
 
 .lista{
-    transition: all 1s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .lista:hover{
@@ -96,17 +102,82 @@ h1 {
 .enlace:hover{
     color: #e9e8e4;
 }
+
+
+
+
+
+
 /* SECCION INTRODUCCION */
 
-.seccion_intro {
-    background-color: #e9e8e4;
+
+#heading {
+    /* background-color: #a8a69b; */
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(357deg, #d1ccbb, #aabe85, #e2877f, #b6d175, #b59492);
+    background-size: 1000% 1000%;
+    -webkit-animation: AnimationName 16s ease infinite;
+    -moz-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 49% 0%
+    }
+
+    50% {
+        background-position: 52% 100%
+    }
+
+    100% {
+        background-position: 49% 0%
+    }
 }
 
-span.nolimits {
-    font-family: "Analogia";
-    color: #a0463e;
-    font-size: 3rem;
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 49% 0%
+    }
+
+    50% {
+        background-position: 52% 100%
+    }
+
+    100% {
+        background-position: 49% 0%
+    }
 }
+
+@keyframes AnimationName {
+    0% {
+        background-position: 49% 0%
+    }
+
+    50% {
+        background-position: 52% 100%
+    }
+
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+#heading h3 {
+    font-family: "Helvetica Medium";
+    font-size: 2.5em;
+    margin-left: 1em;
+    color: #313c1d;
+}
+
+.text-slider-items {
+    display: none;
+    color: #a0463e;
+}
+
+
 
 /* ABOUT US */
 
@@ -118,6 +189,10 @@ span.nolimits {
 .section-2 {
     background-color: #a0463e;
     color: #e9e8e4;
+}
+
+.section-4 {
+    background-color: #a8a69b;
 }
 
 span.difference {
@@ -135,6 +210,13 @@ span.difference {
     font-family: "Analogia";
     font-size: 2rem;
 }
+
+
+
+
+
+
+
 
 /* PROYECTOS */
 
