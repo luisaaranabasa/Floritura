@@ -44,7 +44,13 @@ h1 {
 
 
 
-
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
 
 /* MENU */
 
@@ -65,7 +71,8 @@ h1 {
 }
 
 .navbar {
-    position: fixed
+    position: fixed;
+    z-index: 1111;
 }
 
 .navbar-nav {
@@ -110,9 +117,11 @@ h1 {
 
 /* SECCION INTRODUCCION */
 
+#principio_pag {
+    z-index: 0;
+}
 
 #heading {
-    /* background-color: #a8a69b; */
     text-align: center;
     height: 100vh;
     display: flex;
@@ -181,6 +190,11 @@ h1 {
 
 /* ABOUT US */
 
+
+#aboutus {
+    z-index: 1;
+}
+
 .section-1 {
     background-color: black;
     color: #e9e8e4;
@@ -224,6 +238,52 @@ span.realstuff {
     font-weight: bold;
     font-style: italic
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.space-holder {
+    position: relative;
+    width: 100%;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.horizontal {
+    position: absolute;
+    height: 100%;
+    will-change: transform;
+}
+
+.cards {
+    position: relative;
+    height: 100%;
+    padding: 0 0 0 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sample-card {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    background-color: #111f30;
+    margin-right: 75px;
+    flex-shrink: 0;
+}
+
+
 
 
 /* CONTACTO */
