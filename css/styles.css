@@ -239,6 +239,11 @@ span.realstuff {
     font-style: italic
 }
 
+.latest_proyects h1{
+    font-weight: bold;
+    font-style: italic;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -274,13 +279,24 @@ span.realstuff {
     align-items: center;
 }
 
+.card-body {
+    display: flex;
+    align-items: flex-end;
+}
+
 .sample-card {
     position: relative;
     height: 300px;
     width: 500px;
-    background-color: #111f30;
+    background-color: #b59492;
     margin-right: 75px;
     flex-shrink: 0;
+}
+
+.sample-card h5 {
+    color: thistle;;
+    font-family: helvetica;
+    font-size: 1.5em;
 }
 
 
