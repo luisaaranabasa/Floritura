@@ -306,7 +306,41 @@ span.realstuff {
 
 
 /* CONTACTO */
+#contactus {
+    background-color: #a0463e;
+    color: white;
+    height: 100vh;
+}
 
+.container-contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-contactus h1 {
+    font-family: 'Helvetica Medium';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3em;
+}
+
+.container-contactus h2 {
+    font-family: 'Analogia';
+}
+
+.container-contactus button {
+    font-family: 'Helvetica Medium';
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40%;
+}
 
 /* FOOTER */
 
