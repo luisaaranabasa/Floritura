@@ -35,3 +35,4 @@ container.forEach(function(current, i) {
       spaceHolder[i].style.height = `${calcDynamicHeight(horizontal[i])}px`;
     });
 });
+
