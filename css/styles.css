@@ -56,7 +56,6 @@ h1 {
 
 .container-fluid {
     justify-content: space-between;
-    width: 100vh;
 }
 
 .menu_secciones {
@@ -298,10 +297,6 @@ span.realstuff {
     font-family: 'Analogia';
     font-size: 1.5em;
 }
-
-
-
-
 
 
 
