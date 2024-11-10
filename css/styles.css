@@ -174,7 +174,7 @@ h1 {
 }
 
 #heading h3 {
-    font-family: "Helvetica Medium";
+    font-family: "Helvetica";
     font-size: 2.5em;
     margin-left: 1em;
     color: #313c1d;
@@ -319,7 +319,7 @@ span.realstuff {
 }
 
 .container-contactus h1 {
-    font-family: 'Helvetica Medium';
+    font-family: 'Helvetica';
     font-weight: bold;
     font-style: italic;
     font-size: 3em;
@@ -330,7 +330,7 @@ span.realstuff {
 }
 
 .container-contactus button {
-    font-family: 'Helvetica Medium';
+    font-family: 'Helvetica';
     font-weight: bold;
     font-style: italic;
 }
@@ -435,6 +435,8 @@ p {
     background-color:#b59492;
     color: #e9e8e4;
 }
+
+
 
 
 
