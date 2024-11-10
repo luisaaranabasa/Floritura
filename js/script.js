@@ -36,5 +36,10 @@ container.forEach(function(current, i) {
     });
 });
 
-
-
+document.addEventListener("DOMContentLoaded", function() {
+  const textElements = document.querySelectorAll('h1, h2, h3, p:not(#footer p), span');
+  textElements.forEach(function(element) {
+    element.setAttribute('data-aos', 'fade-up');
+  });
+  AOS.init();
+});
