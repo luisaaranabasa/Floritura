@@ -243,7 +243,7 @@ span.realstuff {
     font-style: italic;
 }
 
-.container {
+.container_proyects {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -399,5 +399,40 @@ p {
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 1.1em;
+}
+
+/* FORMULARIO */
+
+.section-5 {
+    background-color: #a0463e;
+    flex: 1;
+}
+
+
+.form-label {
+    font-family: "Helvetica Bold";
+    color: #e9e8e4;
+}
+
+.form-text {
+    font-family: "Analogia";
+    color: #e9e8e4;
+}
+
+.btn{
+    background-color: #e9e8e4;
+    color: #a0463e;
+    border: none;
+    font-family: "Analogia";
+}
+.btn:hover {
+    background-color:#b59492;
+    color: #e9e8e4;
+}
+
+.flex-grow-1 {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 56px); /* Ajusta 56px al tamaño de tu navbar */
 }
 
