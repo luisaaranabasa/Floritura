@@ -7,6 +7,10 @@ VERDE CLARO #898e7d
 ROJO CLARO #b59492
 */
 
+* {
+    box-sizing: content-box; /* Cambia a content-box si es necesario */
+}
+
 @font-face {
     font-family:"Helvetica Bold" ;
     src: url(css/fonts/HelveticaNeueBold.otf) format('truetype');
@@ -197,15 +201,94 @@ h1 {
 .section-1 {
     background-color: black;
     color: #e9e8e4;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 h1 {
+    font-size: 6em;
 }
 
 .f {
     font-family: 'Analogia';
+    vertical-align: top;
+    font-size: 1.5em;
+}
+
+.section-1 p {
+    color: #a0463e;
+}
+.asterisco {
+    font-family: "Analogia";
+    color: #a0463e;
+    vertical-align: top;
 }
 
 .section-2 {
     background-color: #a0463e;
     color: #e9e8e4;
+    position: relative;
+    overflow: hidden;
+}
+
+.mmmwhat {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    gap: 2em;
+}
+
+.text_mmm {
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.text_mmm h2 {
+    text-align: left;
+    margin: 0; 
+    font-size: 2.5em;
+}
+
+.marquee {
+    overflow: hidden;
+    height: 40%;
+    position: relative;
+}
+
+.marquee-inner {
+    display: flex;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee img {
+    height: 50px;
+    margin-right: 0;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.details h3 {
+    text-align: center;
+    font-size: 4.5em;
+}
+
+.details .highlight {
+    font-family: "Analogia";
+    font-size: 1.2em;
 }
 
 .section-4 {
@@ -217,15 +300,64 @@ span.difference {
 }
 
 .section-3 {
-    background-color: #313c1d;
+    background-color: #898e7d;
     color: #e9e8e4;
+    position: relative;
+    overflow: hidden;
 }
+
+.passorsmash {
+    text-align: center; /* Centra el texto */
+}
+
+.text_pass {
+    position: relative; /* Necesario para el posicionamiento relativo */
+    text-align: center;
+}
+
+.text_pass h2 {
+    margin-bottom: 20px; /* Espacio debajo del h2 */
+    text-align: left;
+    padding-left: 3em;
+}
+
+.pass {
+    margin-bottom: 20px;
+    padding-left: 3.5em;
+    font-size: 7em;
+    text-align: left;
+}
+
+.text_pass p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.smash {
+    text-align: right;
+    padding-right: 0.8em;
+    font-size: 9em;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        color: #e9e8e4; /* Color inicial: gris */
+    }
+    50% {
+        color: #313c1d; /* Color intermedio: verde oscuro */
+    }
+    100% {
+        color: #e9e8e4; /* Color final: gris */
+    }
+}
+
 .section-3 h2, h3 {
     font-family: "Helvetica";
 }
 .section-3 p {
     font-family: "Analogia";
-    font-size: 2rem;
+    font-size: 5rem;
 }
 
 
@@ -398,7 +530,7 @@ footer .menu li a:hover {
     color: #a0463e;
 }
 
-p {
+footer p {
     color: #898e7d;
     text-align: center;
     margin-top: 15px;
