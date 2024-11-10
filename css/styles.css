@@ -199,6 +199,10 @@ h1 {
     color: #e9e8e4;
 }
 
+.f {
+    font-family: 'Analogia';
+}
+
 .section-2 {
     background-color: #a0463e;
     color: #e9e8e4;
@@ -223,6 +227,7 @@ span.difference {
     font-family: "Analogia";
     font-size: 2rem;
 }
+
 
 
 
